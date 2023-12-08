@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/style.css">
+    <title>Coding Quiz Challenge</title>
+</head>
+<body>
+    <h1>Coding Quiz Challenge</h1>
+    <div>
+        <span id="high-scores">High Scores</span>
+        <span id="timer">Timer: </span>
+        <div class="timer-count"></div>
+    </div>
+    <div>
+        <button id="timerButton">Start Timer</button>
+        <button class="reset">Reset Score</button>
+        <button class="stop-button">Restart Game</button>
+    </div>
+    <p>Games Played: <span class="games-played"></span></p>
+    <p>Tally: <span id="tally"></span></p>
+    <p>Score: <span id="score"></span></p>
+    <p id="end-game-display"></p>
+    <div id="question-bay"></div>
+
+    <div>
+        <p>This is a coding quiz. Please press start and then guess the answers. Every wrong question will subtract 10 seconds from your score. Answer 8 questions correctly before the time runs out and you pass. Try to set a high score and check out previous high scores in the score tab.</p>
+    </div>
+    <p>Leaderboard:</p>
+    <ul id="leaderboard-bay"></ul>
+
+    <script src="./assets/script.js"></script>
+</body>
+</html>
